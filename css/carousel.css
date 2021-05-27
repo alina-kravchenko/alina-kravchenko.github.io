@@ -1,0 +1,55 @@
+
+.authors {
+	background-color: #000;
+	color: #fff;
+	padding-top: 4em;
+}
+
+.slide {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-link {
+	color: rgba(255,255,255,.1);
+	width: 15%;
+	padding-top: 2em;
+	transition: all .3s ease;
+
+}
+
+.img-link :hover{
+	color: rgba(255,255,255,.7);
+}
+
+
+.txt-box {
+	width: 50%;
+	padding-right: 30px;
+}
+
+.img-box {
+	width: 50%;
+}
+
+.img-box img {
+	display: block;
+	width:100%;
+}
+
+@media screen and (orientation:portrait) {
+
+	.txt-box,
+	.img-box {
+		width: 100%;
+		padding-right: 0;
+		max-width: 400px;
+		margin: auto;
+	}
+
+	.txt-box {
+		margin-bottom: 30px;
+	}
+}
